@@ -1,0 +1,79 @@
+/* src/SignaturePad.css */
+
+/* Overall layout */
+.signature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.signature-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Canvas styling */
+.canvas {
+    border: 2px solid #000;
+    background-color: #f5f5f5;
+    cursor: crosshair;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Buttons container */
+.button-container {
+    margin: 10px 0;
+}
+
+/* Styling buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Color and brush size controls */
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 0 10px;
+}
+
+.controls input[type="range"] {
+    margin-left: 10px;
+    width: 100px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
